@@ -48,6 +48,10 @@
       <Project>{556583a5-a00e-4e9d-89ec-901c7fb42f32}</Project>
       <Name>PpcLocal.Domain.Db</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PpcLocal.Domain.Dto\PpcLocal.Domain.Dto.csproj">
+      <Project>{b2671583-e448-4619-bce9-e1ccd8fbde42}</Project>
+      <Name>PpcLocal.Domain.Dto</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Img\" />
