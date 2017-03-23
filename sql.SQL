@@ -18,6 +18,17 @@ CREATE TABLE [Clientes]
 )
 go
 
+SET IDENTITY_INSERT [dbo].[Clientes] ON     
+GO
+INSERT [dbo].[Clientes] ([ClienteID], [Nombre], [Apellido]) VALUES (1, N'Nestor', N'Rodriguez')
+GO
+INSERT [dbo].[Clientes] ([ClienteID], [Nombre], [Apellido]) VALUES (2, N'Marcos', N'Rodriguez')
+GO
+INSERT [dbo].[Clientes] ([ClienteID], [Nombre], [Apellido]) VALUES (3, N'Jose', N'Gonzalez')
+GO
+SET IDENTITY_INSERT [dbo].[Clientes] OFF
+GO
+
 -- Add keys for table Clientes
 
 ALTER TABLE [Clientes] ADD CONSTRAINT [Key1] PRIMARY KEY ([ClienteID])

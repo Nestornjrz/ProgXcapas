@@ -51,41 +51,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapasModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CapasModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CapasModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CapasModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CapasModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CapasModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
+      <DependentUpon>CapasModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Model1.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
+    <EntityDeploy Include="CapasModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CapasModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="CapasModel.edmx.diagram">
+      <DependentUpon>CapasModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CapasModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CapasModel.edmx</DependentUpon>
+      <LastGenOutput>CapasModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="CapasModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CapasModel.edmx</DependentUpon>
+      <LastGenOutput>CapasModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Img\AgregarData.png" />
     <Content Include="Img\ConeccionString.png" />
     <Content Include="Img\DataBaseFirst.png" />
@@ -93,16 +101,6 @@
     <Content Include="Img\SeleccionDelDb.png" />
     <Content Include="Img\tablas.png" />
     <Content Include="Img\Version_de_Entity_Framework.png" />
-    <Content Include="Model1.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Content>
-    <Content Include="Model1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
