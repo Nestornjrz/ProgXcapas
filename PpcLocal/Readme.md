@@ -18,6 +18,17 @@
   * Aqui estan los DTO
   * Aqui estan la logica de la aplicacion y el acceso a datos por medio de ENTITYFRAMEWORK 6.X
 
+# DIAGRAMA Las capsas API + DOMAIN
+
+Aqui se muestra como la capa de la API consulta la capa DOMAIN(Donde estan la el acceso a la Db y los Dto)
+
+![Diagrama Capas](img/diagramaCapas.png)
+
+En forma mas detallada se muestra como el controlador **ClientesController** llama al metodo 
+GetAllList de la clase **ClientesManagers** que a su vez llama al DbContext **CapasDbEntities**
+
+![Diagrama Capas Detallada](img/DiagramaCapasDetallada.png)
+
 # PROBLEMA
 
 Pasa que en esta aproximacion, se tiene que instalar el paquete EntityFramework tanto en el proyecto
