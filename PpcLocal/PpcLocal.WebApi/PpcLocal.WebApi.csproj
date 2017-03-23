@@ -157,8 +157,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -214,7 +214,16 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\PpcLocal.Domain.Dto\PpcLocal.Domain.Dto.csproj">
+      <Project>{b2671583-e448-4619-bce9-e1ccd8fbde42}</Project>
+      <Name>PpcLocal.Domain.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PpcLocal.Domain.Managers\PpcLocal.Domain.Managers.csproj">
+      <Project>{6f722c27-4d12-494e-ad1f-b2ca58a02bbd}</Project>
+      <Name>PpcLocal.Domain.Managers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

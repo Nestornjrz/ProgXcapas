@@ -15,7 +15,9 @@ namespace PpcLocal.Domain.Managers
             {
                 var listado = await context.Clientes.Select(s => new ClienteDto()
                 {
-
+                    ClienteID = s.ClienteID,
+                    Nombre = s.Nombre,
+                    Apellido = s.Apellido
                 }).ToListAsync();
                 return listado;
             }
