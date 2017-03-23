@@ -17,3 +17,10 @@
 * **Domain**
   * Aqui estan los DTO
   * Aqui estan la logica de la aplicacion y el acceso a datos por medio de ENTITYFRAMEWORK 6.X
+
+# PROBLEMA
+
+Pasa que en esta aproximacion, se tiene que instalar el paquete EntityFramework tanto en el proyecto
+**PpcLocal.Domain.Db, PpcLoca.Domain.Db y Ppc.Domain.Managers** cuando deveria estar solo en **PpcLocal.Domain.Db**
+
+![Paquetes](img/paquetes.png)
