@@ -1,5 +1,8 @@
 # PROGRAMACION POR CAPAS
 
+Aquí les dejo el enlace de un pequeño [Video](https://youtu.be/4aQ6ZwAGKps) que hice para mostrar el proyecto y así tener 
+una idea acabada de como esta. La idea es compartir para que aprendan conmigo y los que saben más me corrijan, pues seguro hay cosas que corregir.
+
 ## TECNOLOGIA UTILIZADA
 
 * .NET Framework 4.6.1
