@@ -1,12 +1,10 @@
-# PROGRAMACION POR CAPAS (local)
-
-Este es un proyecto de contabilidad, cuyo objetivo es poder llevar la contabilidad tanto ganadera como personal.
+# PROGRAMACION POR CAPAS
 
 ## TECNOLOGIA UTILIZADA
 
 * .NET Framework 4.6.1
 * Asp.Net 
-* ~~Angular 2 (Esta por salir [Angular 4](https://github.com/angular/angular/blob/master/CHANGELOG.md#400-beta5-2017-01-25) , asi que lo voy a pasar a eso cuando este estable)~~ (a agregar)
+* ~~Angular 2 (Esta por salir [Angular 4](https://github.com/angular/angular/blob/master/CHANGELOG.md#400-beta5-2017-01-25) , asi que lo voy a pasar a eso cuando este estable)~~
 * Web Api 2
   * [Swegger](http://swagger.io/) para facilitar ver las APIs de una manera mas "amigable"
 * SqlServer 
@@ -19,9 +17,3 @@ Este es un proyecto de contabilidad, cuyo objetivo es poder llevar la contabilid
 * **Domain**
   * Aqui estan los DTO
   * Aqui estan la logica de la aplicacion y el acceso a datos por medio de ENTITYFRAMEWORK 6.X
-
-## SEGURIDAD
-
-Mas adelante voy a controlar los accesos a la aplicacion por medio de [IdentityServer3](https://identityserver.github.io/Documentation/docsv2/overview/mvcGettingStarted.html)
-
-

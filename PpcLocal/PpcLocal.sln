@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcLocal.Domain.Dto", "PpcL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcLocal.WebApi", "PpcLocal.WebApi\PpcLocal.WebApi.csproj", "{BB0E3DE6-670C-4DEA-A1D7-E94142485D06}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F38A5B4D-3ACA-4447-8EF3-CEC65AA39F9D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB5FA216-4382-4013-A11D-B88CD5A7DC6E}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
