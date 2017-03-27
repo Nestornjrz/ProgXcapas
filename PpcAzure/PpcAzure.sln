@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcAzure.Domain.Managers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcAzure.WebApi", "PpcAzure.WebApi\PpcAzure.WebApi.csproj", "{12A581B1-4DB4-4123-98FE-3DEBF9E9BA07}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Pruebas", "4-Pruebas", "{51F55ECA-0987-4780-84FF-46DA7CC335FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcAzure.Test", "PpcAzure.Test\PpcAzure.Test.csproj", "{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,12 @@ Global
 		{12A581B1-4DB4-4123-98FE-3DEBF9E9BA07}.Release_NoEnviar|Any CPU.Build.0 = Release|Any CPU
 		{12A581B1-4DB4-4123-98FE-3DEBF9E9BA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A581B1-4DB4-4123-98FE-3DEBF9E9BA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}.Release_NoEnviar|Any CPU.ActiveCfg = Release|Any CPU
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}.Release_NoEnviar|Any CPU.Build.0 = Release|Any CPU
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +67,6 @@ Global
 		{E4893533-B2FA-4B19-83CA-163D87415408} = {9A5DDD54-E5D7-447B-99EF-56AA4A7D3954}
 		{91C60758-0D9E-43B8-BE87-FCE5E12CB3E8} = {9A5DDD54-E5D7-447B-99EF-56AA4A7D3954}
 		{12A581B1-4DB4-4123-98FE-3DEBF9E9BA07} = {28F4816F-9CEA-485B-A478-822F46401CFC}
+		{E63E1BEF-6BAA-4A22-939D-EF2C848E4731} = {51F55ECA-0987-4780-84FF-46DA7CC335FD}
 	EndGlobalSection
 EndGlobal
