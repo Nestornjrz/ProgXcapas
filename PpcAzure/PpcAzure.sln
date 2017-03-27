@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentacion", "1-Presentacion", "{9DB74160-5E43-4932-B5BE-4F25BD982869}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Apis", "2-Apis", "{28F4816F-9CEA-485B-A478-822F46401CFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{9A5DDD54-E5D7-447B-99EF-56AA4A7D3954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcAzure.Domain.Db", "PpcAzure.Domain.Db\PpcAzure.Domain.Db.csproj", "{8DB0D49B-7412-4FB4-89B1-8D31B3A9E9E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB0D49B-7412-4FB4-89B1-8D31B3A9E9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB0D49B-7412-4FB4-89B1-8D31B3A9E9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB0D49B-7412-4FB4-89B1-8D31B3A9E9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB0D49B-7412-4FB4-89B1-8D31B3A9E9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DB0D49B-7412-4FB4-89B1-8D31B3A9E9E4} = {9A5DDD54-E5D7-447B-99EF-56AA4A7D3954}
+	EndGlobalSection
+EndGlobal

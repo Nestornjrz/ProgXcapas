@@ -1,6 +1,6 @@
 ﻿/*
 Created: 23/03/2017
-Modified: 23/03/2017
+Modified: 27/03/2017
 Model: Microsoft SQL Server 2016
 Database: MS SQL Server 2016
 */
@@ -31,7 +31,7 @@ GO
 
 -- Add keys for table Clientes
 
-ALTER TABLE [Clientes] ADD CONSTRAINT [Key1] PRIMARY KEY ([ClienteID])
+ALTER TABLE [Clientes] ADD CONSTRAINT [Pk_Clientes] PRIMARY KEY ([ClienteID])
 go
 
 
