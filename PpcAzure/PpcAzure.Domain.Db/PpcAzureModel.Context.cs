@@ -9,22 +9,20 @@
 
 namespace PpcAzure.Domain.Db
 {
-    using System;
     using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
+
     public partial class CapasDbEntities : DbContext
     {
         public CapasDbEntities()
             : base("name=CapasDbEntities")
         {
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            //throw new UnintentionalCodeFirstException();
         }
-    
+
         public virtual DbSet<Cliente> Clientes { get; set; }
     }
 }
